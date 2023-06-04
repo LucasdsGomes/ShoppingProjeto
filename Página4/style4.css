@@ -1,0 +1,105 @@
+
+.navbar img{
+    width: 5%;
+}
+.navbar ul li:hover {
+    background-color: hsla(157, 73%, 56%, 0.8);
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.895);
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+.navbar ul {
+    padding-left: 70px;
+}
+.navbar li {
+    margin-left: 30px;
+}
+
+.navbar {
+    background-color: rgb(108, 199, 185);
+}
+h5 {
+    font-family: var(--bs-body-font-family);
+    color: rgb(94, 113, 179);
+}
+h2 {
+    color: rgb(0, 81, 255);
+}
+
+footer {
+    background-color: #333;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  
+  .list-group-item {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .custom-bg {
+    background-image: url('https://sadstaticwordpressprd.blob.core.windows.net/sitesshoppings/sites/23/2023/01/3683_novo_site_-_lazer_-_topo_de_pagina.png') ;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #maes {
+    margin: auto;
+  }
+  #guardioes {
+    padding-top: 15px;
+  }
+  #newsletter {
+    margin-top: 50px;
+  }
+  #contatos,
+  #endereco,
+  #redes{
+    font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color:rgb(40, 148, 148);
+  }
+  #contatos,
+  #endereço{
+    color: black;
+  }
+
+  #novidades {
+    background-color: aliceblue;
+  }
+  #guard,
+  #caval,
+  #john {
+    width: 50%;
+  }
+  #emcartaz {
+    font-size: 20px; font-weight: bold; color: rgb(94, 113, 179);
+  }
+  #menutotal {
+    z-index: 999;
+  }
+  #primeirocard {
+    max-width: 540px;
+  }
+  #segundocard {
+    max-width: 540px;
+    margin-top: 100px;
+  }
+  #terceirocard {
+    max-width: 540px;
+    margin-top: 100px;
+  }
